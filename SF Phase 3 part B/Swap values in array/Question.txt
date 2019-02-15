@@ -1,0 +1,13 @@
+Create a file Solution.java with main method.
+
+Write a static method swapValues in Solution class. This method will take integer array as input and return array where each value is swapped with its neighbour element. In case the array has odd count, then last element is not swapped.
+
+Create integer array in main method with below values
+
+111 77 88 44 32 11 13 25 44
+
+Call swapValues and display the resulted array values with space in between.
+
+Compile Solution class with command javac Solution.java and execute the same with command java Solution.
+
+The output will be 77 111 44 88 11 32 25 13 44
