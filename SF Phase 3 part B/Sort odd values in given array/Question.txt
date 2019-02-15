@@ -1,0 +1,13 @@
+Create a file Solution.java with main method.
+
+Write a method sortOddValues in Solution class. This method will take integer array as input and return sorted array (in ascending order) for odd values.
+
+Create integer array in main method with below values
+
+111 77 88 44 32 11 13 25 44
+
+Call sortOddValues and display the resulted array values with space in between.
+
+Compile Solution class with command javac Solution.java and execute the same with command java Solution.
+
+The output will be 11 13 25 77 111
