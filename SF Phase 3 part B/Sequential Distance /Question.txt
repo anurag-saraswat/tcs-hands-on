@@ -1,0 +1,38 @@
+Create class Point with below attributes in file Point.java
+
+double x
+
+double y
+
+This class represents a point in 2D system. Write constructor to initialize x and y attributes.
+
+Write required getters and setters.
+
+Compile this class with command javac Point.java
+
+Create class Solution with main method in file Solution.java
+
+Write a method findSequentialDistance in Solution class.
+
+This method will take array of Point objects and find sequential distance from one point to next traversing all points.
+
+E.g. if the points are (0,0) , (3,4) and (6,8) then the method will calculate distance from first point (0,0) to next i.e (3,4) (which is 5) and then from (3,4) to (6,8) which is again 5.
+
+Hence, the total answer is 10. Same logic would apply for all points shared a sequence of array elements.
+
+Create array of 4 Point objects assigning (x,y) values as:
+
+-3,-4
+
+0,0
+
+4,3
+
+16,-2
+
+Call method findSequentialDistance passing this array as input.
+
+Compile Solution class with command javac Solution.java and execute the same with command java Solution.
+
+The resulted output will be 23.0
+
