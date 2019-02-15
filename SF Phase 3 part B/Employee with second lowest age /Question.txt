@@ -1,0 +1,35 @@
+Create a file Employee.java (use right click option in the environment to create new file)
+
+Create public class Employee with below attributes
+
+id int
+
+name String
+
+double age
+
+Write constructor to initialize the attributes.
+
+Try to compile the class with command:
+
+javac Employee.java
+
+Create file Solution.java
+
+Create public class Solution in that file.
+
+Write a method employeeWithSecondLowestAge which takes array of Employee objects as input parameters and returns the Employee object with second lowest age.
+
+Assume that no employee objects will have same age.
+
+Declare main method in Solution class. Create array of four Employee objects.
+
+Set age values for these array objects as 22,33,55 and 44, names as "aaa", "bbb", "ccc" and "ddd" and ids as 1,2,3 and 4 respectively.
+
+Call employeeWithSecondLowestAge method from main method.
+
+Display the id, name and age of employee returned with space in between.
+
+Compile the class using command javac Solution.java
+
+Execute Solution class using command "java Solution" and test the output. Correct result should display "2 bbb 33.0"
