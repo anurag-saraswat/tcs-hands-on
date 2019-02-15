@@ -1,0 +1,41 @@
+Next, set values as below (try using Scanner for practice. Hence you will experience using Scanner for String value.)
+
+Set below values (try using Scanner for practice. Hence you will experience using Scanner for String value by calling nextLine() method in scanner object)
+
+e1 will have attributes "aaa",15,"mumbai"
+
+e2 will have attributes "bbb",15,"mumbai"
+
+e3 will have attributes "ccc",15,"mumbai"
+
+Compile the class using command javac Solution.java
+
+Execute Solution class using command "java Solution" and test the output. Correct result should display "3".
+
+Important note on Scanner:
+
+Sometimes scanner does not read the new line character while invoking methods like nextInt(), nextDouble() etc.
+
+Usually, this is not an issue, but this may be visible while calling nextLine() immediately after those methods.
+
+Consider below input values:
+
+22
+hello
+Referring below code:
+
+Scanner sc = new Scanner(System.in);
+
+int x = sc.nextInt();
+
+String str = sc.nextLine(); -> here we expect str to have value "hello". Instead it may be "".
+
+If above issue is observed, then it is suggested to add one more call to nextLine() after reading numeric value whenever next scanner call is for nextLine().
+
+See the code below:
+
+int x = sc.nextInt();sc.nextLine();
+
+String str = sc.nextLine();
+
+Try using this solution in case above issue is observed when you are using Scanner.

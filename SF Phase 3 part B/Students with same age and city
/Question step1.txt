@@ -1,0 +1,47 @@
+Create a file Student.java, using touch Student.java
+
+Create public class Student with below attributes
+
+name String
+
+double age
+
+city String
+
+Write constructor to initialize the attributes.
+
+Try to compile the class with command:
+
+javac Student.java
+
+Create a Solution.java file, using touch Solution.java
+
+Create public class Solution in that file.
+
+Write a method studentCountWithSameCityAndAge which takes three Student objects as input parameters and returns the count of students with same city and age.
+
+Consider the logic as below:
+Method returns 3 if all students have same city and age.
+
+Method returns 2 if two students have same city and age.
+
+For any other combinition, method will return 0.
+
+Declare main method in Solution class. Create three Student objects e1, e2 and e3.
+
+Set below values (without using Scanner. Hence set hard coded values in main method itself):
+
+e1 will have attributes "aaa",15,"mumbai"
+
+e2 will have attributes "bbb",15,"mumbai"
+
+e3 will have attributes "ccc",17,"mumbai"
+
+Call studentCountWithSameCityAndAge method from main method.
+
+Display the output of this method. It should be 2.
+
+Compile the class using command javac Solution.java
+
+Execute Solution class using command java Solution and test the output. Correct result should display "2".
+

@@ -1,0 +1,15 @@
+Finally,
+
+set values as below (without using Scanner. Hence set hard coded values in main method itself):
+
+Set below values (try using Scanner for practice. Hence you will experience using Scanner for String value.)
+
+e1 will have attributes "aaa",15,"delhi"
+
+e2 will have attributes "bbb",16,"mumbai"
+
+e3 will have attributes "ccc",15,"mumbai"
+
+Compile the class using command javac Solution.java
+
+Execute Solution class using command java Solution and test the output. Correct result should display "0".
