@@ -1,0 +1,33 @@
+Create a file Employee.java (use right click option in the environment to create new file)
+
+Create public class Employee with below attributes
+
+id int
+
+name String
+
+double age
+
+Write constructor to initialize the attributes.
+
+Try to compile the class with command:
+
+javac Employee.java
+
+Create file Solution.java
+
+Create public class Solution in that file.
+
+Write a method getEmployeeWithMaxAge which takes three Employee objects as input parameters and returns the Employee object with maximum age.
+
+Declare main method in Solution class. Create three Employee objects e1, e2 and e3.
+
+Set age values for these objects as 22,33 and 44, names as "aaa", "bbb", and "ccc" and ids as 1,2 and 3 respectively.
+
+Call getEmployeeWithMaxAge method from main method.
+
+Display the id, name and age of employee returned with space in between.
+
+Compile the class using command javac Solution.java
+
+Execute Solution class using command "java Solution" and test the output. Correct result should display "3 ccc 44"
